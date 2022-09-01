@@ -1,0 +1,93 @@
+
+:root {
+    --var-white: #FFFFFE;
+    --var-red: #E53170;
+    --var-blue: #0F0E17;
+    --var-lightblue: #52B5C8;
+    --text-color: #24131E;
+
+
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    max-width:30%;
+    float: left;
+}
+
+header{
+    text-align: center;
+    color: var(--var-red);
+    padding: 2rem 0 2rem 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.3rem;
+    
+    
+}
+
+main>p {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.row {
+    margin-top: 2.5rem;
+}
+
+.box {
+    width: calc(100%/3);
+    float: left;
+    padding: 0 1rem 0 1rem;
+}
+
+.layover {
+    background-color: var(--var-blue);
+    box-shadow: 0 0 5px;
+}
+
+.content {
+    padding: 1rem 1rem 0 1rem;
+    width: 70%;
+    float: right;
+    color: var(--var-white);
+}
+
+.content h2{
+    font-size: 1.5vw;
+    margin-bottom: 0.5rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.content p, .content a {
+    font-size: 1.2vw;
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--var-lightblue);
+}
