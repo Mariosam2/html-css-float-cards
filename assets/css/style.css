@@ -18,7 +18,7 @@
     
 
 }
-
+/* clearfix */
 .clearfix::after {
     content: "";
     display: table;
@@ -30,11 +30,7 @@
     margin: auto;
 }
 
-img {
-    max-width:30%;
-    float: left;
-}
-
+/*header */
 header{
     text-align: center;
     color: var(--var-red);
@@ -45,15 +41,18 @@ header{
     
 }
 
+/*main*/
 main>p {
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
 }
 
+/*rules for the row*/
 .row {
     margin-top: 2.5rem;
 }
+
 
 .box {
     width: calc(100%/3);
@@ -66,10 +65,17 @@ main>p {
     box-shadow: 0 0 5px;
 }
 
+img {
+    max-width:30%;
+    float: left;
+    height: 15vh;
+    
+}
+
 .content {
     padding: 1rem 1rem 0 1rem;
-    width: 70%;
-    float: right;
+    width:70%;
+    float: left;
     color: var(--var-white);
 }
 
