@@ -42,7 +42,7 @@ header{
 }
 
 /*main*/
-main>p {
+.container>p {
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
@@ -57,7 +57,7 @@ main>p {
 .box {
     width: calc(100%/3);
     float: left;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem 0 0;
 }
 
 .layover {
