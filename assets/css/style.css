@@ -41,6 +41,11 @@ header{
     
 }
 
+.title {
+    width: 80%;
+    margin: auto;
+}
+
 /*main*/
 .container>p {
     text-align: center;
